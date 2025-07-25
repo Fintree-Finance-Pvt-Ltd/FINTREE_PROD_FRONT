@@ -21,9 +21,9 @@ const mysql = require('mysql2');
  
 const pool = mysql.createPool({
     host: process.env.DB_HOST || 'localhost',
-    user: process.env.DB_USER || 'root',
+    user: process.env.DB_USER || 'u341672715_FINTREE_LMS',
     password: process.env.DB_PASS || 'F!ntree@2025',
-    database: process.env.DB_NAME || 'fintree_lms',
+    database: process.env.DB_NAME || 'u341672715_FINTREE_PROD',
     waitForConnections: true,
     connectionLimit: 10, // You can adjust this as needed
     queueLimit: 0
